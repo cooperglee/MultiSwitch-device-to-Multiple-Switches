@@ -19,11 +19,11 @@ metadata {
 preferences {
 	tiles {
 		standardTile("switch", "device.switch", width: 2, height: 2, canChangeIcon: true) {
-			state "name", label: '${currentValue}', action: "switch.on", icon: "st.switches.light.off", backgroundColor: "#DDDDff", nextState: "turningOn"
-			state "off", label: 'off', action: "switch.on", icon: "http://cdn.flaticon.com/png/256/31559.png", backgroundColor: "#DDDDff", nextState: "turningOn"
-			state "on", label: 'on', action: "switch.off", icon: "http://cdn.flaticon.com/png/256/31275.png", backgroundColor: "#0088ff", nextState: "turningOff"
-			state "turningOff", label: 'Turning Off', icon: "http://cdn.flaticon.com/png/256/31559.png", backgroundColor: "#FA5882", nextState: "on"
-			state "turningOn", label: 'Turning On', icon: "http://cdn.flaticon.com/png/256/31275.png", backgroundColor: "#F3F781", nextState: "off"
+			state "name", label: '${currentValue}', action: "switch.on", icon: "http://cdn.flaticon.com/png/256/56724.png", backgroundColor: "#DDDDff", nextState: "turningOn"
+			state "off", label: 'off', action: "switch.on", icon: "http://cdn.flaticon.com/png/256/56724.png", backgroundColor: "#DDDDff", nextState: "turningOn"
+			state "on", label: 'on', action: "switch.off", icon: "http://cdn.flaticon.com/png/256/56724.png", backgroundColor: "#0088ff", nextState: "turningOff"
+			state "turningOff", iconLabel:"http://cdn.flaticon.com/png/256/56413.png" , icon: "http://cdn.flaticon.com/png/256/56724.png", backgroundColor: "#FA5882", nextState: "on"
+			state "turningOn", iconLabel:"http://cdn.flaticon.com/png/256/56498.png" , icon: "http://cdn.flaticon.com/png/256/56724.png", backgroundColor: "#F3F781", nextState: "off"
 		}
 
 	    valueTile("lastOn", "device.lastOn", inactiveLabel: false, width: 3, height: 1, canChangeIcon: false, decoration:"flat") {
