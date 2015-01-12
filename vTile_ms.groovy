@@ -13,9 +13,6 @@ metadata {
 		capability "relaySwitch"
 		capability "Polling"
 		capability "Refresh"
-
-		attribute "lastOn",  "string"
-		attribute "lastOff", "string"
 	}
 }
 
