@@ -66,7 +66,7 @@ def devTemplates(devType) {
 
 def templates() {
 	def templates = [
-    	'aeon4': 	[ "switch":"Power Strip", "switch1":"Outlet 1", "switch2":"Outlet 2", "switch3":"Outlet 3", "switch4":"Outlet 4" ],
+    	'aeon4': 	[ "switch":"Power Strip", "switch1":"SW Outlet 1", "switch2":"SW Outlet 2", "switch3":"SW Outlet 3", "switch4":"SW Outlet 4", "switch5":"Outlet 1", "switch6":"Outlet 2", "switch7":"All SW Outlets"],
     	'base': 	[ "switch":"switch", "switch1":"Switch 1"],
     	'base2': 	[ "switch":"switch", "switch1":"Switch 1", "switch2":"Switch 2"],
     	'base9': 	[ "switch":"switch", "switch1":"Switch 1", "switch2":"Switch 2", "switch3":"Switch 3", "switch4":"Switch 4", "switch5":"Switch 5", "switch6":"Switch 6", "switch7":"Switch 7", "switch8":"Switch 8", "switch9":"Switch 9"],
